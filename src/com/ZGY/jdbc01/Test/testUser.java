@@ -1,4 +1,4 @@
-package com.ZGY.jdbc01;
+package com.ZGY.jdbc01.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,8 +20,8 @@ public class testUser {
 //		}
 		//addUser test
 		List<User>users=new ArrayList<>();
-//		User user =new User("moskalin","moskalin","12345612345","Ç¨°²");
-//		db.add(user);
+		User user =new User("aaaa","123456","12345612345","hhhh");
+    	db.add(user);
 //		users=db.findAll();
 //		for (User tempUser : users) {
 //			System.out.println(tempUser);
